@@ -5,10 +5,6 @@ var logger = new (winston.Logger)({
     new (winston.transports.Console)({}),
     new winston.transports.File({ filename: __dirname + '/irc.log', json:false, timestamp:false})
   ],
-  exceptionHandlers: [
-    new (winston.transports.Console)({}),
-    new winston.transports.File({ filename: __dirname + '/exceptions.log', json:false, timestamp:false})
-  ],
   exitOnError: false
 });
 
