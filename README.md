@@ -1,4 +1,0 @@
-Taro
-====
-
-IRC bot 
