@@ -1,0 +1,7 @@
+{
+    "name":"EddieBot",
+    "server":"irc.esper.net",
+    "port":"6667",
+    "channels":["#taco"],
+    "ops":["Riaku","Eddie","Spock"]
+}
